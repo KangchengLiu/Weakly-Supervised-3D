@@ -6,8 +6,6 @@ Weakly Supervised Framework for 3D Scene Understanding
 The rapid progress in 3D scene understanding has come with growing demand for data; however, collecting and annotating 3D scenes (e.g. point clouds) are notoriously hard. For example, the number of scenes (e.g. indoor rooms) that can be accessed and scanned might be limited; even given sufficient data, acquiring 3D labels (e.g. instance masks) requires intensive human labor. In this paper, we explore data-efficient learning for 3D point cloud. As a first step towards this direction, we propose Contrastive Scene Contexts, a 3D pre-training method that makes use of both point-level correspondences and spatial contexts in a scene. Our method achieves state-of-the-art results on a suite of benchmarks where training data or labels are scarce. Our study reveals that exhaustive labelling of 3D point clouds might be unnecessary; and remarkably, on ScanNet, even using 0.1% of point labels, we still achieve 89% (instance segmentation) and 96% (semantic segmentation) of the baseline performance that uses full annotations.
 
 
-[[CVPR 2021 Paper]](https://arxiv.org/abs/2012.09165) [[Video]](https://www.youtube.com/watch?v=E70xToZLgs4&t=1s) [[Project Page]](https://sekunde.github.io/project_efficient/) [[ScanNet Data-Efficient Benchmark]](http://kaldir.vc.in.tum.de/scannet_benchmark/data_efficient/about)
-
 ## Environment
 This codebase was tested with the following environment configurations.
 - Ubuntu 20.04
