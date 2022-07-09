@@ -343,12 +343,11 @@ LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_sunrgbd.sh
 
 ## Citing our paper
 ```
-@inproceedings{hou2021exploring,
-  title={Exploring data-efficient 3d scene understanding with contrastive scene contexts},
-  author={Hou, Ji and Graham, Benjamin and Nie{\ss}ner, Matthias and Xie, Saining},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={15587--15597},
-  year={2021}
+@inproceedings{liu2022ws3d,
+  title={WS3D: Weakly Supervised 3D Scene Segmentation with Region-Level Boundary Awareness and Instance Discrimination},
+  author={Liu, Kancheng and Zhao, Yuzhi and Nie, Qiang and Gao, Zhi and Chen Ben M.},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2022}
 }
 ```
 
