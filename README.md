@@ -1,5 +1,6 @@
-# Weakly-Supervised-3D
-Weakly Supervised Framework for 3D Scene Understanding
+## Weakly-Supervised-3D
+
+A Supervised Framework for 3D Scene Understanding in the limited reconstruction case, where merely limited number of scenes can be annotated.
 
 ![](fig/Intro_2.png)
 
