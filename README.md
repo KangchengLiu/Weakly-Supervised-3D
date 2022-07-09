@@ -1,7 +1,7 @@
 # Weakly-Supervised-3D
 Weakly Supervised Framework for 3D Scene Understanding
 
-![](fig/Intro_2.pdf)
+![](fig/Intro_2.png)
 
 Current state-of-the-art 3D scene understanding methods are merely designed in a full-supervised way. However, in the limited reconstruction cases, only limited 3D scenes can be reconstructed and annotated. We are in need of a framework that can concurrently be applied to 3D point clouds semantic segmentation and instance segmentation, particularly in circumstances that labels are rather scarce. The paper introduces an effective approach to tackle the 3D scene understanding problem when labeled scenes are scarce. To leverage the boundary information, we propose a novel energy-based loss with boundary awareness benefiting from the region-level boundary labels predicted by the boundary prediction network. To encourage latent instance discrimination and guarantee efficiency, we propose the first unsupervised region-level semantic contrastive learning scheme for point clouds, which uses confident predictions of the network to discriminate the intermediate feature embeddings in multiple stages.  In the limited reconstruction case, our proposed approach, termed WS3D, ranks 1st on the large-scale ScanNet dataset on both the task of semantic segmentation and instance segmentation. Also, our proposed WS3D achieves state-of-the-art performance on the other indoor and outdoor datasets S3DIS and SemanticKITTI.
 
