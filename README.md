@@ -135,7 +135,8 @@ cd downstream/semseg/
 DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT SAMPLED_INDS=PATH_SCENE_LIST ./scripts/data_efficient/by_points.sh
 ```
 
-#### Model Zoo
+#### 
+
 We also provide our pre-trained checkpoints (and log file) for reference. You can evalutate our pre-trained model by running code:
 ```
 # PATH_CHECKPOINT points to downloaded pre-trained model path:
@@ -198,19 +199,6 @@ cd downstream/insseg/
 DATAPATH=SCANNET_DATA LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_scannet_benchmark.sh
 ```
 
-
-| Training Data    | mAP@0.5 (val)    | Pre-trained Model Used (for initialization) | Logs                              | Curves                                      |  Model                               |
-|---------------|---------------------|---------------------------------------------|-----------------------------------|---------------------------------------------|--------------------------------------|
-| 1% scenes     | 12.3                | [download][partition8_4096_60k]             | [link][scannet_ins_scene1_log]    | [link][scannet_ins_scene1_20_tensorboard]   | [link][scannet_ins_scene1_weight]    |
-| 5% scenes     | 33.9                | [download][partition8_4096_60k]             | [link][scannet_ins_scene5_log]    | [link][scannet_ins_scene1_20_tensorboard]   | [link][scannet_ins_scene5_weight]    |
-| 10% scenes    | 45.3                | [download][partition8_4096_60k]             | [link][scannet_ins_scene10_log]   | [link][scannet_ins_scene1_20_tensorboard]   | [link][scannet_ins_scene10_weight]   |
-| 20% scenes    | 49.8                | [download][partition8_4096_60k]             | [link][scannet_ins_scene20_log]   | [link][scannet_ins_scene1_20_tensorboard]   | [link][scannet_ins_scene20_weight]   |
-| 100% scenes   | 59.4                | [download][partition8_4096_60k]             | [link][scannet_ins_scene100_log]  | [link][scannet_ins_scene100_tensorboard]    | [link][scannet_ins_scene100_weight]  |
-| 20 points     | 27.2                | [download][partition8_4096_60k]             | [link][scannet_ins_point20_log]   | [link][scannet_ins_point20_200_tensorboard] | [link][scannet_ins_point20_weight]   |
-| 50 points     | 35.7                | [download][partition8_4096_60k]             | [link][scannet_ins_point50_log]   | [link][scannet_ins_point20_200_tensorboard] | [link][scannet_ins_point50_weight]   |
-| 100 points    | 43.6                | [download][partition8_4096_60k]             | [link][scannet_ins_point100_log]  | [link][scannet_ins_point20_200_tensorboard] | [link][scannet_ins_point100_weight]  |
-| 200 points    | 50.4                | [download][partition8_4096_60k]             | [link][scannet_ins_point200_log]  | [link][scannet_ins_point20_200_tensorboard] | [link][scannet_ins_point200_weight]  |
-| train + val   | 76.5 (64.8 on test) | [download][partition8_4096_60k]             | [link][scannet_ins_benchmark_log] | [link][scannet_ins_benchmark_tensorboard]   | [link][scannet_ins_benchmark_weight] |
 
 
 ### 3D Object Detection
