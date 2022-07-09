@@ -352,7 +352,7 @@ LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_sunrgbd.sh
 ```
 
 ## License
-Weakly-Supervised-3D is relased under the MIT License. 
+Weakly-Supervised-3D will be relased under the MIT License. 
 
 
 [partition8_4096_15k_pointnet2]: http://kaldir.vc.in.tum.de/3dsis/contrastive_scene_contexts/pretrain/partition8_4096_15k_pointnet.pth
