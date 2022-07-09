@@ -8,9 +8,9 @@ The rapid progress in 3D scene understanding has come with growing demand for da
 
 ## Environment
 This codebase was tested with the following environment configurations.
-- Ubuntu 20.04
-- CUDA 10.2
-- GCC 7.3.0
+- Ubuntu 18.04
+- CUDA 11.3
+- GCC 7.5.0
 - Python 3.7.7
 - PyTorch 1.5.1
 - [MinkowskiEngine](https://github.com/stanfordvl/MinkowskiEngine) v0.4.3 
