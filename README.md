@@ -353,7 +353,7 @@ LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_sunrgbd.sh
 ```
 
 ## License
-Contrastive Scene Contexts is relased under the MIT License. See the LICENSE file for more details.
+Weakly-Supervised-3D is relased under the MIT License. 
 
 
 [partition8_4096_15k_pointnet2]: http://kaldir.vc.in.tum.de/3dsis/contrastive_scene_contexts/pretrain/partition8_4096_15k_pointnet.pth
