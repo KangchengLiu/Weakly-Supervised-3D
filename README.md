@@ -161,27 +161,27 @@ DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/te
 We provide code for the instance segmentation experiments conducted in our paper. Our code supports **multi-gpu training**. To train with 8 GPUs on a single server, 
 ```
 # Edit relevant path variables and then run:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/train_scannet.sh
 ```
 For **Limited Scene Reconstruction**, run following code:
 ```
 # Edit relevant path variables and then run:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT TRAIN_FILE=PATH_SCENE_LIST ./scripts/data_efficient/by_scenes.sh
 ```
 
 For **Limited Points Annotation**, run following code:
 ```
 # Edit relevant path variables and then run:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT SAMPLED_INDS=PATH_POINTS_LIST ./scripts/data_efficient/by_points.sh
 ```
 
 For **ScanNet Benchmark**, run following code (train on train+val and evaluate on val):
 ```
 # Edit relevant path variables and then run:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/train_scannet_benchmark.sh
 ```
 
@@ -189,14 +189,14 @@ DATAPATH=SCANNET_OUT_PATH LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/tr
 We provide our pre-trained checkpoints (and log file) for reference. You can evalutate our pre-trained model by running code:
 ```
 # PATH_CHECKPOINT points to pre-trained model path:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_DATA LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_scannet.sh
 ```
 
 For submitting to ScanNet Benchmark with our pre-trained model, run following command (the submission file is located in output/benchmark_instance):
 ```
 # PATH_CHECKPOINT points to pre-trained model path:
-cd downstream/insseg/
+cd ./Instance_seg/
 DATAPATH=SCANNET_DATA LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_scannet_benchmark.sh
 ```
 
