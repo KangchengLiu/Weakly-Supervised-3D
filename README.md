@@ -14,7 +14,7 @@ This codebase was tested with the following environment configurations.
 - GCC 7.5.0
 - Python 3.7.7
 - PyTorch 1.5.1
-- [MinkowskiEngine](https://github.com/stanfordvl/MinkowskiEngine) v0.4.3 
+- [MinkowskiEngine](https://github.com/stanfordvl/MinkowskiEngine) v0.4.3 for voxel-based convolutions.
 
 
 ## Installation
@@ -24,7 +24,7 @@ We have used conda for the installation process:
 # Install virtual env and PyTorch
 conda create -n sparseconv043 python=3.7
 conda activate sparseconv043
-conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
 
 # Complie and install MinkowskiEngine 0.4.3.
 conda install mkl mkl-include -c intel
