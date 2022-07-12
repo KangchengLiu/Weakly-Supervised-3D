@@ -19,7 +19,7 @@ This codebase was tested with the following environment configurations.
 
 ## Installation
 
-We use conda for the installation process:
+We have used conda for the installation process:
 ```
 # Install virtual env and PyTorch
 conda create -n sparseconv043 python=3.7
@@ -33,7 +33,7 @@ cd MinkowskiEngine-0.4.3
 python setup.py install
 ```
 
-Next, download Contrastive Scene Contexts git repository and install the requirement from the root directory.
+Next, download Contrastive Scene Contexts git repository and install the requirement from the root directory. 
 
 ```
 git clone https://github.com/facebookresearch/ContrastiveSceneContexts.git
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 Our code also depends on [PointGroup](https://github.com/Jia-Research-Lab/PointGroup) and [PointNet++](https://github.com/erikwijmans/Pointnet2_PyTorch).
 ```
-# Install OPs in PointGroup by:
+# Install operations in PointGroup by:
 conda install -c bioconda google-sparsehash
 cd downstream/insseg/lib/bfs/ops
 python setup.py build_ext --include-dirs=YOUR_ENV_PATH/include
