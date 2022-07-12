@@ -341,16 +341,6 @@ LOG_DIR=./output PRETRAIN=PATH_CHECKPOINT ./scripts/test_sunrgbd.sh
 | 100% scenes       | 36.4           |    58.9        | [download][partition4_4096_100k]              | [link][sunrgbd_det_log]     |[link][sunrgbd_det_tensorboard]     | [link][sunrgbd_det_weight]     |
 
 
-## Citing our paper
-```
-@inproceedings{liu2022ws3d,
-  title={WS3D: Weakly Supervised 3D Scene Segmentation with Region-Level Boundary Awareness and Instance Discrimination},
-  author={Liu, Kancheng and Zhao, Yuzhi and Nie, Qiang and Gao, Zhi and Chen Ben M.},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2022}
-}
-```
-
 ## License
 Weakly-Supervised-3D will be relased under the MIT License. 
 
