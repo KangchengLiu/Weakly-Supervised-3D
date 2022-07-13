@@ -13,7 +13,7 @@ This codebase was tested with the following environment configurations.
 - CUDA 11.3
 - GCC 7.5.0
 - Python 3.7.7
-- PyTorch 1.5.1
+- PyTorch 1.7.1
 - [MinkowskiEngine](https://github.com/stanfordvl/MinkowskiEngine) v0.4.3 for voxel-based convolutions.
 
 
