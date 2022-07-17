@@ -1,6 +1,6 @@
 ## Weakly-Supervised-3D
 
-A Supervised Framework for 3D Scene Understanding in the limited reconstruction case, where merely limited number of 3D scenes can be annotated. 
+A Weakly-Supervised Framework for 3D Scene Understanding in the limited reconstruction case, where merely limited number of 3D scenes can be annotated. 
 
 ![](fig/Intro_2.png)
 
@@ -25,7 +25,7 @@ We have used conda for the installation process:
 # Install virtual env and PyTorch
 conda create -n sparseconv043 python=3.7
 conda activate sparseconv043
-conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.3 -c pytorch
 
 # Complie and install MinkowskiEngine 0.4.3.
 conda install mkl mkl-include -c intel
